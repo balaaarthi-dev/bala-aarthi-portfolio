@@ -1,20 +1,26 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff3fa">
 
-    <title>Bala Aarthi | Web Designer</title>
+    <title>Bala Aarthi | Creative Developer</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <nav class="navbar">
-            <h2 class="logo">BALA AARTHI.</h2>
+            <a href="#home" class="logo">BALA AARTHI<span>.</span></a>
 
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -26,125 +32,245 @@
         </nav>
     </header>
 
-    <section id="home">
-        <p class="intro">WELCOME TO MY PORTFOLIO</p>
+    <main>
 
-    <h1>Hi, I'm Bala Aarthi</h1>
+        <!-- HOME -->
+        <section id="home">
 
-    <h2>Web Designer</h2>
+            <div class="hero-content">
+                <p class="intro">✦ HELLO, WELCOME TO MY WORLD</p>
 
-    <p class="description">
-        I am a Computer Science Engineering student
-        passionate about designing creative,
-        modern and user-friendly websites.
-    </p>
+                <h1>
+                    I'm <span class="gradient-text">Bala Aarthi</span>
+                </h1>
 
-        <a href="#projects" class="btn">View My Work</a>
-        <a href="resume.pdf.pdf" class="btn" download>
-    Download CV
+                <h2>Creative Web Designer <br>& Developer</h2>
 
-</a>
-    </section>
+                <p class="description">
+                    I'm a Computer Science Engineering student who loves
+                    transforming creative ideas into beautiful, modern
+                    and user-friendly digital experiences.
+                </p>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-        Hello! I'm Bala Aarthi, a Computer Science
-        Engineering student with an interest in
-        web design and front-end development.
-    </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        Explore My Work ↗
+                    </a>
 
-    <p>
-        I enjoy creating simple, beautiful and
-        user-friendly websites. I'm continuously
-        learning new technologies and improving
-        my design skills.
-    </p>
-    </section>
+                    <a href="resume.pdf.pdf" class="btn secondary-btn" download>
+                        Download CV ↓
+                    </a>
+                </div>
 
-    <section id="skills">
-        <h2>My Skills</h2>
+                <div class="hero-note">
+                    <span class="note-dot"></span>
+                    Always learning. Always creating.
+                </div>
+            </div>
 
-    <div class="skills-container">
+            <div class="hero-art">
+                <div class="blob blob-one"></div>
+                <div class="blob blob-two"></div>
 
-        <div class="skill-card">
-            <h3>HTML</h3>
-            <p>Website Structure</p>
-        </div>
+                <div class="profile-card">
 
-        <div class="skill-card">
-            <h3>CSS</h3>
-            <p>Website Styling</p>
-        </div>
+                    <img
+                        src="profile.jpg"
+                        alt="Bala Aarthi"
+                        class="profile-photo"
+                        style="width:150px; height:150px; object-fit:cover; border-radius:50%; display:block; margin:0 auto 15px;"
+                    >
 
-        <div class="skill-card">
-            <h3>JavaScript</h3>
-            <p>Website Interaction</p>
-        </div>
+                    <p>CREATIVE MIND</p>
+                    <h3>Designing ideas<br>into reality.</h3>
 
-        <div class="skill-card">
-            <h3>Python</h3>
-            <p>Programming</p>
-        </div>
+                </div>
 
-    </div>
-    </section>
+                <span class="floating-star star-one">✦</span>
+                <span class="floating-star star-two">✧</span>
+                <span class="floating-label">DESIGN • CODE • CREATE</span>
+            </div>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="projects-container">
+        </section>
 
-        <div class="project-card">
+        <!-- ABOUT -->
+        <section id="about" class="about-section">
 
-            <h3>URL Shortener</h3>
+            <div class="section-heading">
+                <p class="section-tag">A LITTLE ABOUT ME</p>
+                <h2>More Than Just <span class="gradient-text">Code</span></h2>
+            </div>
 
-            <p>
-                A web application that converts
-                long URLs into short and simple links.
-                Developed using Python and Django.
-                <a href="#" class="project-link">View Project →</a>
+            <div class="about-card">
+                <div class="about-symbol">✿</div>
+
+                <div class="about-content">
+                    <h3>Hey there! I'm Bala Aarthi.</h3>
+
+                    <p>
+                        I'm a Computer Science Engineering student with
+                        a growing interest in web design and front-end
+                        development.
+                    </p>
+
+                    <p>
+                        I enjoy creating simple, beautiful and
+                        user-friendly websites. I love exploring new
+                        ideas, learning technologies and improving my
+                        creative and technical skills.
+                    </p>
+
+                    <p class="about-highlight">
+                        My goal is to turn imagination into meaningful
+                        digital experiences.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="skills-section">
+
+            <div class="section-heading">
+                <p class="section-tag">MY TOOLKIT</p>
+                <h2>Creative Skills & <span class="gradient-text">Technologies</span></h2>
+                <p class="section-subtitle">
+                    Technologies I'm learning and using to bring ideas to life.
+                </p>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill-card skill-purple">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML</h3>
+                    <p>Building website structure</p>
+                    <span>01 / STRUCTURE</span>
+                </div>
+
+                <div class="skill-card skill-pink">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Creating beautiful designs</p>
+                    <span>02 / DESIGN</span>
+                </div>
+
+                <div class="skill-card skill-orange">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Adding website interactions</p>
+                    <span>03 / INTERACTION</span>
+                </div>
+
+                <div class="skill-card skill-blue">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Programming and problem solving</p>
+                    <span>04 / LOGIC</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="projects-section">
+
+            <div class="section-heading">
+                <p class="section-tag">THINGS I'VE BUILT</p>
+                <h2>My Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">
+                    A collection of projects where I turn what I learn into practice.
+                </p>
+            </div>
+
+            <div class="projects-container">
+
+                <article class="project-card project-one">
+                    <div class="project-top">
+                        <span class="project-number">PROJECT 01</span>
+                        <span class="project-emoji">🔗</span>
+                    </div>
+
+                    <h3>URL Shortener</h3>
+
+                    <p>
+                        A web application that converts long URLs into
+                        short and simple links. Developed using Python
+                        and Django.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </article>
+
+                <article class="project-card project-two">
+                    <div class="project-top">
+                        <span class="project-number">PROJECT 02</span>
+                        <span class="project-emoji">💻</span>
+                    </div>
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        A personal website designed to showcase my
+                        skills, projects and profile with a creative
+                        and modern design.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact-section">
+
+            <div class="contact-decoration">✦</div>
+
+            <p class="section-tag">HAVE SOMETHING IN MIND?</p>
+
+            <h2>Let's Create Something <span>Amazing!</span></h2>
+
+            <p class="contact-description">
+                Have a project idea or an opportunity?
+                I'd love to hear from you.
             </p>
 
-            <span>Python | Django | HTML | CSS</span>
+            <a href="mailto:balaaarthi32@gmail.com" class="btn contact-btn">
+                Say Hello ↗
+            </a>
 
-        </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/bala-aarthi-176243383?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                   target="_blank" rel="noopener noreferrer">
+                    LinkedIn ↗
+                </a>
 
-        <div class="project-card">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    GitHub ↗
+                </a>
+            </div>
 
-            <h3>Personal Portfolio</h3>
+        </section>
 
-            <p>
-                A personal website to showcase
-                my skills, projects and profile.
-            </p>
+    </main>
 
-            <span>HTML | CSS | JavaScript</span>
-
-        </div>
-
-    </div>
-
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>
-        Have a project or an opportunity?
-        Feel free to contact me!
-    </p>
-
-    <a href="mailto:balaaarthi32@gmail.com" class="btn">
-        Send Me an Email
-      <div class="social-links">
-    <a href="https://www.linkedin.com/in/bala-aarthi-176243383?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a>
-    <a href="#" target="_blank">GitHub</a>
-</div>  
-    </a>
-    </section>
     <footer>
-    <p>© 2026 Bala Aarthi. All Rights Reserved.</p>
-    <a href="#home" class="back-to-top">Back to Top ↑</a>
-</footer>
+        <p>Made with creativity by <span>Bala Aarthi</span> ✦</p>
+        <a href="#home" class="back-to-top">Back to Top ↑</a>
+    </footer>
 
 </body>
 </html>
